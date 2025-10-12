@@ -53,5 +53,4 @@ conda activate 3DGS
 #### Acknowledgments:
 This work is supported by the National Supercomputing Center in Zhengzhou.
 
- Window11, CPU Intel Corei7, RAM 32G, GPU Nvidia A4500 20GB.
->>>>>>> ff9d604 (first time)
+
