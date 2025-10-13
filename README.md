@@ -29,7 +29,7 @@ The codes are derived for official code for 3D Gaussian Splatting, please refer 
 CPU：Gen Intel(R) Core(TM) i7-13700 2.10 GHz, Memory： 32G, GPU Nvidia A4500 20GB.
 
 #### Installation
-platform: Window11, cuda11.8
+Enviroment: Window11, cuda11.8
 
 First you have to make sure that you have all dependencies in place.
 The simplest way to do so, is to use [anaconda](https://www.anaconda.com/). 
@@ -38,11 +38,11 @@ You can create an anaconda environment called `3DGS` using
 conda env create -f environment.yml
 conda activate 3DGS
 ```
-Then, downlaod the code from: [https://github.com/liujian0819/3DGS.git](https://github.com/liujian0819/3DGS.git)
+Next, downlaod the code from: [https://github.com/liujian0819/3DGS.git](https://github.com/liujian0819/3DGS.git)
 
 #### Training
 Downlaod training [dataset](https://) and put it into the data folder in the working directory. The parameters, e.g. source_path, model_path can be changed in the file: arguments\_init_py.
-Then run the fpllowing code. The result will store in output folder.
+Then run the following codes. The result will store in output folder.
 ```
 cd 3DGS
 train
@@ -50,6 +50,7 @@ train
 #### Rendering
 After training. the model is saved in output\...\chkpnt and the Gaussian pointcloud is saved in output\...\point_cloud
 Gaussian pointcloud is used for rendering cintinous views of the scene.
+
 ```
 cd 3DGS
 render
