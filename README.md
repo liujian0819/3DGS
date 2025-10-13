@@ -38,7 +38,7 @@ You can create an anaconda environment called `3DGS` using
 conda env create -f environment.yml
 conda activate 3DGS
 ```
-Next, downlaod the code from: [https://github.com/liujian0819/3DGS.git](https://github.com/liujian0819/3DGS.git)
+Next, downlaod the code from the repository: [https://github.com/liujian0819/3DGS.git](https://github.com/liujian0819/3DGS.git)
 
 #### Training
 Downlaod training [dataset](https://) and put it into the data folder in the working directory. The parameters, e.g. source_path, model_path can be changed in the file: "arguments\_init_py". Then run the following codes. The result will store in output folder.
