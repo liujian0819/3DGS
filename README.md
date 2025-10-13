@@ -47,7 +47,7 @@ cd 3DGS
 train
 ``` 
 #### Rendering
-After training. the model is saved in output\...\chkpnt and the Gaussian pointcloud iss saved in output\...\point_cloud
+After training. the model is saved in output\...\chkpnt and the Gaussian pointcloud is saved in output\...\point_cloud
 Gaussian pointcloud is used for rendering cintinous views of the scene.
 ```
 cd 3DGS
