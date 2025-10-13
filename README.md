@@ -41,20 +41,21 @@ conda activate 3DGS
 Next, downlaod the code from: [https://github.com/liujian0819/3DGS.git](https://github.com/liujian0819/3DGS.git)
 
 #### Training
-Downlaod training [dataset](https://) and put it into the data folder in the working directory. The parameters, e.g. source_path, model_path can be changed in the file: arguments\_init_py.
-Then run the following codes. The result will store in output folder.
+Downlaod training [dataset](https://) and put it into the data folder in the working directory. The parameters, e.g. source_path, model_path can be changed in the file: "arguments\_init_py". Then run the following codes. The result will store in output folder.
+
 ```
 cd 3DGS
 train
 ``` 
 #### Rendering
-After training. the model is saved in output\...\chkpnt and the Gaussian pointcloud is saved in output\...\point_cloud
+After training. the model is saved in "output\...\chkpnt" and the Gaussian pointcloud is saved in "output\...\point_cloud"
 Gaussian pointcloud is used for rendering cintinous views of the scene.
 
 ```
 cd 3DGS
 render
-``` 
+```
+The groundtruth is in folder: "\output\...\train\...\renders" and redering results are stored in folder: "\output\...\train\...\renders"
 #### Contributions:
 
 1. We developed an integrated framework for 2D-3D segmentation by combining CLIP, SAM, and 3DGS. SAM-CLIP facilitates 2D segmentation for multi-view images based on textual or geometric prompts. Meanwhile, 3DGS is capable of learning a continuous representation of 3D segmentation from the generated 2D masks.
