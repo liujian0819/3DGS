@@ -25,7 +25,7 @@ This repository contains the authors implementation associated with the paper ["
 #### Software Architecture
 The codes are derived for official code for 3D Gaussian Splatting, please refer to (https://github.com/graphdeco-inria/gaussian-splatting)
 
-#### Hardware Platform:
+#### Hardware Platform
 CPU：Gen Intel(R) Core(TM) i7-13700 2.10 GHz, Memory： 32G, GPU Nvidia A4500 20GB.
 
 #### Installation
@@ -56,7 +56,7 @@ cd 3DGS
 render
 ```
 The groundtruth is in folder: "\output\...\train\...\renders" and redering results are stored in folder: "\output\...\train\...\renders"
-#### Contributions:
+#### Contributions
 
 1. We developed an integrated framework for 2D-3D segmentation by combining CLIP, SAM, and 3DGS. SAM-CLIP facilitates 2D segmentation for multi-view images based on textual or geometric prompts. Meanwhile, 3DGS is capable of learning a continuous representation of 3D segmentation from the generated 2D masks.
 
@@ -64,7 +64,7 @@ The groundtruth is in folder: "\output\...\train\...\renders" and redering resul
 
 3. Different from a typical Gaussian, we integrate multiple spherical harmonic functions associated with style labels into the Gaussian. This integration allows various style scenes to be represented using just one point cloud, considerably decreasing storage needs.
 
-#### Acknowledgments:
+#### Acknowledgments
 This work is supported by the National Supercomputing Center in Zhengzhou.
 
 
