@@ -33,7 +33,7 @@ platform: Window11, cuda11.8
 
 First you have to make sure that you have all dependencies in place.
 The simplest way to do so, is to use [anaconda](https://www.anaconda.com/). 
-
+Then, you can ownlaod the code from: [here](https://github.com/liujian0819/3DGS.git)
 You can create an anaconda environment called `3DGS` using
 ```
 conda env create -f environment.yml
