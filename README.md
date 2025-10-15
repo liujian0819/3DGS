@@ -3,7 +3,7 @@
 <div style="text-align: left">
 <img src="ga.gif" width="800"/><br>
 </div>
-ABSTRACT: In computer vision, 3D segmentation is crucial for scene understanding. This study introduces C-SAGS, a comprehensive framework integrating CLIP, SAM, and 3DGS models for zero-shot, cross-modal 3D segmentation using text and geometric prompts. C-SAGS leverages informed 3D Gaussian Splatting to achieve high-quality 3D scene representation, enabling efficient and accurate segmentation. Experimental results demonstrate improved performance and reduced storage requirements compared to state-of-the-art methods. Our framework supports individual manipulation of segmented objects, facilitating 3D scene editing and reconstruction. We demonstrate a significant enhancement in IoU and accuracy, positioning our work within a broader context of 3D scene comprehension. 
+In computer vision, 3D segmentation is crucial for scene understanding. This study introduces C-SAGS, a comprehensive framework integrating CLIP, SAM, and 3DGS models for zero-shot, cross-modal 3D segmentation using text and geometric prompts. C-SAGS leverages informed 3D Gaussian Splatting to achieve high-quality 3D scene representation, enabling efficient and accurate segmentation. Experimental results demonstrate improved performance and reduced storage requirements compared to state-of-the-art methods. Our framework supports individual manipulation of segmented objects, facilitating 3D scene editing and reconstruction. We demonstrate a significant enhancement in IoU and accuracy, positioning our work within a broader context of 3D scene comprehension. 
 
 ------------------------------------------------------------------------------------------------
 
